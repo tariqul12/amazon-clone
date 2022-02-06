@@ -7,12 +7,16 @@ import Home from './Component/Home/Home';
 function App() {
   return (
     //BEM
+    
     <div className="App">
       {/* Header */}
       <Header />
       {/* Home */}
       <Home />
     </div>
+    
+    
+   
   );
 }
 

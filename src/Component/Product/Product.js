@@ -1,6 +1,9 @@
 import React from 'react'
 import './Product.css';
-function Product({title,image,price,rating}) {
+function Product(props) {
+  console.log(props.book)
+
+  const {title,price,rating,image}=props
   return (
     <div className='product'>
       <div className='product-info'>

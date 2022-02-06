@@ -2,6 +2,7 @@ import React from 'react'
 import Product from '../Product/Product';
 import './Home.css';
 
+
 function Home() {
   return (
     <div className='home'>
